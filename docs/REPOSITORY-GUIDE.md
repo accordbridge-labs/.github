@@ -86,7 +86,7 @@ For example, a new backend response may require frontend handling, while a contr
 
 Pull requests should include relevant validation and documentation updates. Distinguish mocked browser tests, local integration tests, real Testnet transactions, and manual Freighter checks. Never commit database credentials, session cookies, private keys, or recovery phrases.
 
-Maintainers review contributions and coordinate dependencies. The backend, frontend and organization resources have adopted MIT. Contracts adoption remains pending, and historical frontend contributor permissions have not been independently verified; check the [licensing review](LICENSING-REVIEW.md) and [contribution terms](../CONTRIBUTING.md) before starting work.
+Maintainers review contributions and coordinate dependencies. The backend, frontend, contracts and organization resources have adopted MIT. Historical frontend and contracts contributor permissions have not been independently verified; check the [licensing review](LICENSING-REVIEW.md) and [contribution terms](../CONTRIBUTING.md) before starting work.
 
 ## Demo and further documentation
 

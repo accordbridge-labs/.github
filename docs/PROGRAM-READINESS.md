@@ -66,9 +66,9 @@ Its acceptance status and the reasons for that decision were not independently v
 
 ## Remaining prerequisites
 
-1. Complete MIT adoption for contracts and resolve outstanding rights records.
-   The backend, frontend and organization resources have adopted MIT with matching
-   contribution terms; frontend adoption followed explicit maintainer direction. The
+1. Resolve outstanding rights records. The backend, frontend, contracts and
+   organization resources have adopted MIT with matching contribution terms;
+   frontend and contracts adoption followed explicit maintainer direction. The
    [licensing inventory and consent drafts](LICENSING-REVIEW.md) identify
    frontend PR #12 and contracts PR #7 as outside contributions without an explicit
    license grant in the inspected public records. Permission for those contributions

@@ -17,9 +17,9 @@ Do not commit secrets, private keys, real customer evidence, or identifying disp
 
 ## Licensing and contribution terms
 
-The backend, frontend and this organization-resources repository use MIT for their original work. Contributions intentionally submitted for inclusion in these licensed repositories must be offered under their MIT license, and contributors must have the right to submit them. Preserve existing copyright and third-party license notices; identify reused material and its terms in the pull request. No copyright assignment is requested.
+The backend, frontend, contracts and this organization-resources repository use MIT for their original work. Contributions intentionally submitted for inclusion in these licensed repositories must be offered under their MIT license, and contributors must have the right to submit them. Preserve existing copyright and third-party license notices; identify reused material and its terms in the pull request. No copyright assignment is requested.
 
-MIT is also the intended license for contracts, where adoption remains pending permission for existing outside contributions. Frontend MIT adoption was explicitly requested by the maintainer; historical contributor permission has not been independently verified. Neither this guide nor adoption establishes retroactive contributor consent. Resolve and record the outstanding permissions listed in the [licensing review](docs/LICENSING-REVIEW.md).
+Frontend and contracts MIT adoption was explicitly requested by the maintainer; historical contributor permission has not been independently verified. Neither this guide nor adoption establishes retroactive contributor consent. Resolve and record the outstanding permissions listed in the [licensing review](docs/LICENSING-REVIEW.md).
 
 ## Verification
 
