@@ -15,7 +15,11 @@ Distinguish proposals, locally checked behaviour, testnet observations, and veri
 
 Do not commit secrets, private keys, real customer evidence, or identifying dispute material. Use synthetic examples.
 
-License selection remains pending. Before opening implementation for outside contributions, maintainers must choose the applicable licenses and contribution terms.
+## Licensing and contribution terms
+
+The backend and this organization-resources repository use MIT for their original work. Contributions intentionally submitted for inclusion in either licensed repository must be offered under its MIT license, and contributors must have the right to submit them. Preserve existing copyright and third-party license notices; identify reused material and its terms in the pull request. No copyright assignment is requested.
+
+MIT is also the intended license for frontend and contracts, but repository-wide adoption remains pending permission for existing outside contributions. Do not assume that this shared guide or the `.github` license licenses those repositories retroactively. Resolve the permissions listed in the [licensing review](docs/LICENSING-REVIEW.md) before opening new implementation contributions there broadly.
 
 ## Verification
 

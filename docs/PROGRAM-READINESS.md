@@ -66,11 +66,12 @@ Its acceptance status and the reasons for that decision were not independently v
 
 ## Remaining prerequisites
 
-1. Resolve the license with the rights holders and publish applicable contribution
-   terms. The [licensing inventory and consent drafts](LICENSING-REVIEW.md) identify
+1. Complete MIT adoption for frontend and contracts. The backend and organization
+   resources have adopted MIT with matching contribution terms. The
+   [licensing inventory and consent drafts](LICENSING-REVIEW.md) identify
    frontend PR #12 and contracts PR #7 as outside contributions without an explicit
-   license grant in the inspected public records. Selection and permission remain
-   pending; no contributor messages were sent.
+   license grant in the inspected public records. Permission for those contributions
+   remains pending; no contributor messages were sent.
 2. Keep evidence tied to actual commits and distinguish local, mocked, hosted and
    live-chain checks. A limited hosted preflight passed on 18 October 2026, checking
    public rendering, authentication boundaries, secure cookies, separate sessions,
