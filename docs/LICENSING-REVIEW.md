@@ -5,9 +5,11 @@ requested implementation of the MIT adoption steps. The backend and organization
 resources now include root MIT licenses attributed to Yusuf Abdulhameed. This
 review does not grant rights to other repositories or replace third-party licenses.
 
-Frontend and contracts adoption remains pending compatible permission for existing
-outside contributions. This is an evidence inventory, not a warranty of ownership
-or a complete distribution-license audit.
+The frontend has also adopted MIT at the maintainer's explicit direction, with
+attribution to Yusuf Abdulhameed and contributors. Historical frontend contributor
+permission has not been independently verified; adoption does not establish that
+permission. Contracts adoption remains pending. This is an evidence inventory,
+not a warranty of ownership or a complete distribution-license audit.
 
 ## Adoption status
 
@@ -15,7 +17,7 @@ or a complete distribution-license audit.
 | --- | --- |
 | [backend](https://github.com/accordbridge-labs/accordbridge-backend) | MIT: root LICENSE, package metadata and README updated. |
 | [organization resources](https://github.com/accordbridge-labs/.github) | MIT: root LICENSE and contribution terms updated. This does not license sibling repositories. |
-| frontend | MIT changes prepared locally, not published; permission for PR #12 remains unresolved. |
+| [frontend](https://github.com/accordbridge-labs/accordbridge-frontend/blob/main/LICENSE) | MIT: root LICENSE, package metadata and README updated at explicit maintainer direction. Permission for PR #12 has not been independently verified. |
 | contracts | MIT changes prepared locally, not published; permission for PR #7 remains unresolved. |
 
 ## Source provenance
@@ -77,7 +79,11 @@ responses or existing permission records; do not substitute a maintainer checkma
 for a contributor's grant. If permission is unavailable, keep that scope pending
 and resolve an independently authored alternative through a separate reviewed change.
 
-## Apply only after the prerequisites are resolved
+## Rights records and remaining adoption checks
+
+Frontend adoption is recorded above separately from unresolved rights evidence.
+The outstanding permissions still require follow-up; no historical contributor
+consent is inferred from the maintainer's request.
 
 1. Record the selected license and maintainer confirmation of rights.
 2. Establish compatible permission for existing outside contributions, with links

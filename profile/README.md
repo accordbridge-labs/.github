@@ -20,7 +20,7 @@ Start with the [repository and architecture guide](../docs/REPOSITORY-GUIDE.md).
 | [accordbridge-backend](https://github.com/accordbridge-labs/accordbridge-backend) | Sessions, participant access, agreement history, work review, transaction preparation and reconciliation |
 | [accordbridge-contracts](https://github.com/accordbridge-labs/accordbridge-contracts) | Testnet escrow, participant authorization, a test-token faucet, contract tests and deployment evidence |
 
-All three repositories are public. Read the [contribution guide](../CONTRIBUTING.md) before starting work. The backend and these organization resources use MIT; frontend and contracts licensing remains pending contributor permissions. See the [per-repository licensing status](../docs/LICENSING-REVIEW.md). Public visibility alone does not grant an open-source reuse license.
+All three repositories are public. Read the [contribution guide](../CONTRIBUTING.md) before starting work. The backend, frontend and these organization resources have adopted MIT; contracts adoption remains pending. See the [per-repository licensing status and outstanding contributor permissions](../docs/LICENSING-REVIEW.md). Public visibility alone does not grant an open-source reuse license.
 
 ## Design principles
 
