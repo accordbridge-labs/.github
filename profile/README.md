@@ -2,23 +2,25 @@
 
 **Clear agreements. Funded milestones.**
 
-AccordBridge Labs is planning a freelancer–client payment workspace on Stellar. Our first focus is fixed-price website projects for independent developers and designers working with clients they already know.
+AccordBridge Labs builds an experimental freelancer–client workspace on Stellar Testnet. Our first focus is fixed-price website projects for independent developers and designers working with clients they already know.
 
-The proposed workflow brings together work agreements, milestone funding, submissions, paid scope changes, and human dispute resolution.
+The implemented workflow connects versioned agreements, participant acceptance, first-milestone test-token escrow, deliverable submissions, client review, release, and mutual refunds. Paid scope changes and human dispute resolution remain planned.
 
 ## Project status
 
-**Planning only.** No payment service, deployed AccordBridge contract, or real-money product is available. Escrow infrastructure is still being evaluated. Proposed protections are design requirements, not shipped guarantees.
+**Development/testnet prototype.** The repositories contain a Next.js interface, a NestJS/PostgreSQL API, and Rust/Soroban contracts. ABUSD is a valueless test token, not USDC. No audit or mainnet payment service is available. Production escrow infrastructure is still being evaluated.
+
+Start with the [repository and architecture guide](../docs/REPOSITORY-GUIDE.md). Each repository documents reproducible setup and checks. [Deployment records](https://github.com/accordbridge-labs/accordbridge-contracts/tree/main/deployments) record historical testnet observations; resets and storage expiry can invalidate them. A successful automated or mocked test is not evidence of live Freighter acceptance.
 
 ## Repositories
 
 | Repository | Responsibility |
 | --- | --- |
 | [accordbridge-frontend](https://github.com/accordbridge-labs/accordbridge-frontend) | Client and freelancer experience, wallet interaction, project workspace |
-| [accordbridge-backend](https://github.com/accordbridge-labs/accordbridge-backend) | Agreements, private records, notifications, chain reconciliation, case workflows |
-| [accordbridge-contracts](https://github.com/accordbridge-labs/accordbridge-contracts) | Escrow evaluation, financial authorization design, contract tests and deployment evidence |
+| [accordbridge-backend](https://github.com/accordbridge-labs/accordbridge-backend) | Sessions, participant access, agreement history, work review, transaction preparation and reconciliation |
+| [accordbridge-contracts](https://github.com/accordbridge-labs/accordbridge-contracts) | Testnet escrow, participant authorization, a test-token faucet, contract tests and deployment evidence |
 
-The project repositories are initially private while the specification is reviewed. Public contribution instructions will evolve as the project opens for development.
+All three repositories are public. Read the [contribution guide](../CONTRIBUTING.md) before starting work. License selection is still pending; public visibility alone does not grant an open-source reuse license.
 
 ## Design principles
 
@@ -28,4 +30,4 @@ The project repositories are initially private while the specification is review
 - Explain the authority of clients, freelancers, operators, and reviewers.
 - Verify financial behaviour before handling real funds.
 
-Stellar is the intended network; this project does not imply endorsement by the Stellar Development Foundation.
+Stellar Testnet is the experimental network; this project does not imply endorsement by the Stellar Development Foundation or acceptance into a funding program.
