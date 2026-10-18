@@ -9,3 +9,5 @@ This public repository contains the organization profile and shared collaboratio
 - `PULL_REQUEST_TEMPLATE.md`: review prompts.
 
 The three public application repositories contain the experimental Testnet implementation. No application implementation is included here. See [program readiness](docs/PROGRAM-READINESS.md) for evidence and unresolved prerequisites.
+
+The [licensing review](docs/LICENSING-REVIEW.md) records source provenance, dependency metadata and the remaining maintainer/contributor decisions. It does not grant a license.

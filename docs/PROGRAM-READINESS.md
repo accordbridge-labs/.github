@@ -24,7 +24,18 @@ browser tests reproduce that defect and exercise the correction. Recovery browse
 tests also needed selectors that distinguish application errors from Next.js's
 route announcement.
 
-## Improvements prepared in the companion changes
+## Merged improvements and verification
+
+The companion changes were merged: [backend #10](https://github.com/accordbridge-labs/accordbridge-backend/pull/10),
+[frontend #13](https://github.com/accordbridge-labs/accordbridge-frontend/pull/13),
+[contracts #8](https://github.com/accordbridge-labs/accordbridge-contracts/pull/8), and
+[organization #2](https://github.com/accordbridge-labs/.github/pull/2).
+
+Post-merge CI passed for [backend](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/39124552087),
+[frontend](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/39124732213), and
+[contracts](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/39124556117).
+The suites contain 18 backend tests, 9 frontend unit tests, 16 browser tests and
+10 contract tests; builds and the contract reproducibility check also passed.
 
 - Backend: authenticated, throttled, cached read-only deployment readiness; explicit
   network/configuration/code/availability results; tests and generated API schema;
@@ -56,10 +67,15 @@ Its acceptance status and the reasons for that decision were not independently v
 ## Remaining prerequisites
 
 1. Resolve the license with the rights holders and publish applicable contribution
-   terms. Existing outside contributions require compatible permission; a new
-   license choice alone cannot establish ownership of others' work.
-2. Review and merge the companion changes with passing CI. Keep evidence tied to
-   actual commits and distinguish local, mocked, hosted and live-chain checks.
+   terms. The [licensing inventory and consent drafts](LICENSING-REVIEW.md) identify
+   frontend PR #12 and contracts PR #7 as outside contributions without an explicit
+   license grant in the inspected public records. Selection and permission remain
+   pending; no contributor messages were sent.
+2. Keep evidence tied to actual commits and distinguish local, mocked, hosted and
+   live-chain checks. A limited hosted preflight passed on 18 October 2026, checking
+   public rendering, authentication boundaries, secure cookies, separate sessions,
+   persisted agreement acceptance and authenticated readiness. It used no wallets
+   or tokens. Two synthetic accounts and one unfunded project remain as test data.
 3. Complete the frontend's hosted two-participant Freighter acceptance runbook,
    recording genuine test transactions. Automated browser tests use synthetic chain
    snapshots; they do not drive the wallet extension.
