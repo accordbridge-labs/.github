@@ -7,6 +7,9 @@ This public repository contains the organization profile and shared collaboratio
 - `SECURITY.md`: reporting guidance and current operational status.
 - `ISSUE_TEMPLATE/`: issue templates.
 - `PULL_REQUEST_TEMPLATE.md`: review prompts.
+- [Contributor starting guide](docs/START-HERE.md): repository routing and verification workflow.
+- [StellarTickets reference review](docs/REFERENCE-REVIEW.md): observed practices and scoped adaptations.
+- [Profile artwork](profile/assets/README.md): original banner and generation provenance.
 
 The three public application repositories contain the experimental Testnet implementation. No application implementation is included here. See [program readiness](docs/PROGRAM-READINESS.md) for evidence and unresolved prerequisites.
 
