@@ -1,18 +1,31 @@
 # Licensing review and adoption checklist
 
-Reviewed 18 October 2026. **No project license has been adopted by this document.**
-The maintainer's choice and permission for pre-existing outside contributions remain
-unresolved. This review is an evidence inventory, not a warranty of ownership or a
-complete distribution-license audit.
+Reviewed 18 October 2026. **MIT is the selected project license.** The maintainer
+requested implementation of the MIT adoption steps. The backend and organization
+resources now include root MIT licenses attributed to Yusuf Abdulhameed. This
+review does not grant rights to other repositories or replace third-party licenses.
+
+Frontend and contracts adoption remains pending compatible permission for existing
+outside contributions. This is an evidence inventory, not a warranty of ownership
+or a complete distribution-license audit.
+
+## Adoption status
+
+| Repository | Status |
+| --- | --- |
+| [backend](https://github.com/accordbridge-labs/accordbridge-backend) | MIT: root LICENSE, package metadata and README updated. |
+| [organization resources](https://github.com/accordbridge-labs/.github) | MIT: root LICENSE and contribution terms updated. This does not license sibling repositories. |
+| frontend | MIT changes prepared locally, not published; permission for PR #12 remains unresolved. |
+| contracts | MIT changes prepared locally, not published; permission for PR #7 remains unresolved. |
 
 ## Source provenance
 
 | Repository | Inspected main commit | Finding |
 | --- | --- | --- |
-| backend | `15d5fe59a240474fc3e22b4ac4b95f5feeab1e7c` | Non-merge authors in the inspected history are maintainer identities. Maintainer must confirm rights to the original work and choose the license. |
+| backend | `15d5fe59a240474fc3e22b4ac4b95f5feeab1e7c` | Non-merge authors in the inspected history are maintainer identities. MIT adoption was requested by the maintainer. |
 | frontend | `6672699b9a0ccf2f5f37f30c3c87d95fb2cd6d4b` | Includes @Oluwa-Laughter's [PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12), affecting recovery implementation, tests, documentation and package configuration. No explicit license permission was found in its PR body, comments or reviews. |
 | contracts | `6d6cfec` | Includes @Ay-obami's [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7): `.github/workflows/contracts.yml` and `docs/CI-WASM-ARTIFACTS.md`. No explicit license permission was found in the inspected PR records. |
-| organization resources | `00d31a8` | Inspected non-merge authors are maintainer identities. Confirm rights to the original documentation. |
+| organization resources | `00d31a8` | Inspected non-merge authors are maintainer identities. MIT adoption was requested by the maintainer. |
 
 Author names and GitHub merge permission do not establish copyright ownership or
 a license grant. These findings do not assert that private permission records do
@@ -20,11 +33,10 @@ not exist. Keep attribution and Git history intact when resolving permissions.
 
 ## License choice
 
-The maintainer has been asked to choose between [MIT](https://choosealicense.com/licenses/mit/)
-and [Apache-2.0](https://choosealicense.com/licenses/apache-2.0/). MIT provides broad
-reuse rights with notice retention. Apache-2.0 includes an explicit patent grant
-and additional notice/change requirements. Neither choice establishes funding
-eligibility or licenses third-party work that the maintainer does not control.
+The maintainer requested the [MIT](https://choosealicense.com/licenses/mit/)
+adoption workflow. MIT provides broad reuse rights with notice retention. Its
+selection does not establish funding eligibility or license third-party work that
+the maintainer does not control.
 
 Public visibility is not an open-source license. GitHub's [no-license guidance](https://choosealicense.com/no-permission/)
 explains the distinction and the importance of existing contributor rights.
@@ -49,10 +61,10 @@ inventory the shipped dependencies/assets and retain their required notices.
 
 ## Consent request drafts — not sent
 
-After selecting one license, the maintainer can send each contributor this request
-with the exact repository, PR, commit range and license filled in:
+The maintainer can send each contributor this request with the exact repository
+and PR/commit range filled in:
 
-> We are preparing to license AccordBridge under [MIT / Apache-2.0, choose one].
+> We are preparing to license AccordBridge under the MIT License.
 > Please confirm whether you own or are authorized to license the original work
 > you contributed in [repository and PR/commit range], and whether you grant
 > permission to distribute those contributions under that license. Please identify
