@@ -1,5 +1,3 @@
-![AccordBridge — Clear agreements. Funded milestones. Original bridge illustration.](https://raw.githubusercontent.com/accordbridge-labs/.github/main/profile/assets/accordbridge-banner.png)
-
 # AccordBridge Labs
 
 **Clear agreements. Funded milestones.**
