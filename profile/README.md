@@ -41,7 +41,7 @@ Start with the [repository and architecture guide](https://github.com/accordbrid
 | [accordbridge-backend](https://github.com/accordbridge-labs/accordbridge-backend) | Sessions, participant access, agreement history, work review, transaction preparation and reconciliation |
 | [accordbridge-contracts](https://github.com/accordbridge-labs/accordbridge-contracts) | Testnet escrow, participant authorization, a test-token faucet, contract tests and deployment evidence |
 
-All three repositories are public. Read the [contribution guide](https://github.com/accordbridge-labs/.github/blob/main/CONTRIBUTING.md) before starting work. The backend, frontend, contracts and these organization resources have adopted MIT. See the [per-repository licensing status and outstanding contributor permissions](https://github.com/accordbridge-labs/.github/blob/main/docs/LICENSING-REVIEW.md).
+All three repositories are public. Read the [contribution guide](https://github.com/accordbridge-labs/.github/blob/main/CONTRIBUTING.md) before starting work. The backend, frontend, contracts and these organization resources use the Apache License 2.0 for their original work. See the [per-repository licensing status and outstanding contributor permissions](https://github.com/accordbridge-labs/.github/blob/main/docs/LICENSING-REVIEW.md).
 
 ## Start with a verified change
 
