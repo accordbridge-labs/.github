@@ -1,10 +1,9 @@
 # Contributor consent outreach
 
-Status: **both MIT requests were sent as public PR comments on 27 November 2026;
-no grant has been recorded. The project has since switched to Apache-2.0, so
-fresh Apache-2.0 confirmations are required.** The historical MIT drafts below
-are kept for the record. A request is not consent, and this file does not create
-or imply permission, nor does it replace the
+Status: **both the MIT requests and the follow-up Apache-2.0 requests were sent
+as public PR comments on 27 November 2026; no grant has been recorded.** The
+historical MIT drafts below are kept for the record. A request is not consent,
+and this file does not create or imply permission, nor does it replace the
 [licensing inventory](LICENSING-REVIEW.md).
 
 Requests sent on 2026-11-27 from the maintainer account `hameedx01`:
@@ -41,8 +40,11 @@ under Apache-2.0.
 
 | Item | Repository / PR | Contributor | Apache-2.0 request | Response |
 | --- | --- | --- | --- | --- |
-| A1 | `accordbridge-frontend` [PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12) | @Oluwa-Laughter | NOT SENT | NO |
-| A2 | `accordbridge-contracts` [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7) | @Ay-obami | NOT SENT | NO |
+| A1 | `accordbridge-frontend` [PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12) | @Oluwa-Laughter | YES, 2026-11-27 — [comment 7229541759](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229541759) | NO — AWAITING |
+| A2 | `accordbridge-contracts` [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7) | @Ay-obami | YES, 2026-11-27 — [comment 7229543662](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229543662) | NO — AWAITING |
+
+Do not convert A1 or A2 to GRANTED without an actual reply. The MIT and
+Apache-2.0 requests are separate; neither has been answered yet.
 
 > AccordBridge has changed its selected license from MIT to the Apache License,
 > Version 2.0. Please confirm whether you own or are authorized to license the
