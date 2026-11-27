@@ -69,9 +69,29 @@ Apache License 2.0 across all four repositories, added root `NOTICE` files,
 updated package/Cargo metadata and documentation, and sent new Apache-2.0
 consent questions to the two outside contributors (recorded in
 [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md)). At the time of this addendum both
-requests were AWAITING and no grant had been recorded. The earlier MIT requests
-must not be cited as Apache-2.0 grants; see
-[LICENSING-REVIEW.md](LICENSING-REVIEW.md) for the current status.
+requests were AWAITING and no grant had been recorded. Fresh Apache-2.0
+follow-up requests were also sent and remain AWAITING; see
+[LICENSING-REVIEW.md](LICENSING-REVIEW.md) and
+[CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). The earlier MIT requests must not be
+cited as Apache-2.0 grants.
+
+License adoption was merged as
+[frontend #28](https://github.com/accordbridge-labs/accordbridge-frontend/pull/28)
+(`fd3704f7ffbb`),
+[backend #25](https://github.com/accordbridge-labs/accordbridge-backend/pull/25)
+(`32a2bc093810`),
+[contracts #19](https://github.com/accordbridge-labs/accordbridge-contracts/pull/19)
+(`a0f53875ac4c`) and
+[organization #12](https://github.com/accordbridge-labs/.github/pull/12)
+(`55129a51cd70`). Post-merge checks succeeded:
+[frontend app](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/46078221845) and
+[advisory](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/46078221691),
+[backend app](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/46078221210) and
+[advisory](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/46078221202),
+[contracts app](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/46078221051) and
+[advisory](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/46078220997).
+The frontend connected-workspace job failed once on a 5-second mobile selector
+timeout and passed on re-run; no code change was made between those runs.
 
 **Activity gap partly closed:** the newest merged commits at the earlier review
 were 30 October (backend), 26 October (frontend) and 24 October (contracts).

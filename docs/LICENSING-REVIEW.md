@@ -78,9 +78,12 @@ PR comments: [frontend PR #12 comment](https://github.com/accordbridge-labs/acco
 and [contracts PR #7 comment](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7209605792).
 Both are recorded in [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md) and remain
 AWAITING. Because the project has since moved to Apache-2.0, those requests do
-**not** cover the new license. Fresh Apache-2.0 confirmations are required from
-@Oluwa-Laughter and @Ay-obami, or the affected scope must be replaced by an
-independently authored, reviewed change with attribution preserved.
+**not** cover the new license. Fresh Apache-2.0 confirmations were sent on the
+same day as follow-up comments: [frontend PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229541759)
+and [contracts PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229543662).
+Both remain AWAITING with no grant recorded. If no answer arrives, the affected
+scope must be replaced by an independently authored, reviewed change with
+attribution preserved, or the exception must be disclosed explicitly.
 
 Do not substitute a maintainer checkmark, a merge, an author name or silence for
 a contributor's grant. Record actual responses with their date, channel and
