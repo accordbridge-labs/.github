@@ -13,6 +13,6 @@ This public repository contains the organization profile and shared collaboratio
 
 The three public application repositories contain the experimental Testnet implementation. No application implementation is included here. See [program readiness](docs/PROGRAM-READINESS.md) for evidence and unresolved prerequisites.
 
-This repository's original documentation and templates are licensed under the [MIT License](LICENSE). This license does not automatically cover other organization repositories or change third-party dependency licenses.
+This repository's original documentation and templates are licensed under the [Apache License 2.0](LICENSE) with the attribution notices in [NOTICE](NOTICE). This license does not automatically cover other organization repositories or change third-party dependency licenses.
 
 The [licensing review](docs/LICENSING-REVIEW.md) records source provenance, adoption status and remaining contributor-permission requirements.

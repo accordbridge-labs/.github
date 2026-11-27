@@ -64,6 +64,15 @@ commit `e00bcdaf9905`. These runs establish current repository checks only.
 They do not prove hosted wallet acceptance, user adoption, an audit, or
 continued availability of the public deployment.
 
+**License change:** on 27 November 2026 the maintainer replaced MIT with the
+Apache License 2.0 across all four repositories, added root `NOTICE` files,
+updated package/Cargo metadata and documentation, and sent new Apache-2.0
+consent questions to the two outside contributors (recorded in
+[CONSENT-OUTREACH.md](CONSENT-OUTREACH.md)). At the time of this addendum both
+requests were AWAITING and no grant had been recorded. The earlier MIT requests
+must not be cited as Apache-2.0 grants; see
+[LICENSING-REVIEW.md](LICENSING-REVIEW.md) for the current status.
+
 **Activity gap partly closed:** the newest merged commits at the earlier review
 were 30 October (backend), 26 October (frontend) and 24 October (contracts).
 The 27 November merges above add substantive, tested changes on all three
@@ -137,13 +146,15 @@ Its acceptance status and the reasons for that decision were not independently v
 
 ## Remaining prerequisites
 
-1. Resolve outstanding rights records. The backend, frontend, contracts and
-   organization resources have adopted MIT with matching contribution terms;
-   frontend and contracts adoption followed explicit maintainer direction. The
-   [licensing inventory and consent drafts](LICENSING-REVIEW.md) identify
-   frontend PR #12 and contracts PR #7 as outside contributions without an explicit
-   license grant in the inspected public records. Permission for those contributions
-   has not been independently verified; no contributor messages were sent.
+1. Resolve outstanding rights records. At the 18 October review the backend,
+   frontend, contracts and organization resources had adopted MIT with matching
+   contribution terms, and [the inventory](LICENSING-REVIEW.md) identified
+   frontend PR #12 and contracts PR #7 as outside contributions without an
+   explicit grant; no messages had been sent at that time. **Update:** on
+   27 November 2026 the maintainer switched all four repositories to Apache
+   License 2.0 and sent consent requests to both contributors, recorded in
+   [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). No replies have been recorded.
+   The earlier MIT requests do not grant rights under Apache-2.0.
 2. Keep evidence tied to actual commits and distinguish local, mocked, hosted and
    live-chain checks. A limited hosted preflight passed on 18 October 2026, checking
    public rendering, authentication boundaries, secure cookies, separate sessions,

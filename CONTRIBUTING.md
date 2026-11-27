@@ -17,9 +17,9 @@ Do not commit secrets, private keys, real customer evidence, or identifying disp
 
 ## Licensing and contribution terms
 
-The backend, frontend, contracts and this organization-resources repository use MIT for their original work. Contributions intentionally submitted for inclusion in these licensed repositories must be offered under their MIT license, and contributors must have the right to submit them. Preserve existing copyright and third-party license notices; identify reused material and its terms in the pull request. No copyright assignment is requested.
+The backend, frontend, contracts and this organization-resources repository use the Apache License 2.0 for their original work, with attribution retained in each repository's `NOTICE` file. Contributions intentionally submitted for inclusion in these licensed repositories must be offered under that license (Apache License 2.0), and contributors must have the right to submit them. Preserve existing copyright, patent, trademark and attribution notices and any `NOTICE` content; identify reused material and its terms in the pull request. No copyright assignment is requested.
 
-Frontend and contracts MIT adoption was explicitly requested by the maintainer; historical contributor permission has not been independently verified. Neither this guide nor adoption establishes retroactive contributor consent. Resolve and record the outstanding permissions listed in the [licensing review](docs/LICENSING-REVIEW.md).
+A prior MIT adoption and the consent requests sent on 27 November 2026 were superseded by the maintainer's decision to use Apache License 2.0. Historical contributor permission has not been independently verified for either license. Neither this guide nor the license files establish retroactive contributor consent. Resolve and record the outstanding permissions listed in the [licensing review](docs/LICENSING-REVIEW.md) and [consent outreach](docs/CONSENT-OUTREACH.md); do not treat an MIT request as an Apache-2.0 grant.
 
 ## Verification
 
