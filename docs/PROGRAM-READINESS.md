@@ -72,8 +72,11 @@ consent questions to the two outside contributors (recorded in
 09:34 UTC, before the Apache-2.0 follow-up at 22:41 UTC, and then replied
 "Hi @hameedx01 permission granted good move" at 22:57 UTC in direct response to
 the Apache-2.0 request ([reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229757636)).
-Frontend PR #12 is therefore granted under both licenses; contracts PR #7
-remains AWAITING. See
+Frontend PR #12 is therefore granted under both licenses. @Ay-obami confirmed
+ownership of contracts PR #7 at 23:05 UTC
+([reply](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987))
+but has not yet granted Apache-2.0 distribution permission, so that exception
+remains partially resolved. See
 [LICENSING-REVIEW.md](LICENSING-REVIEW.md) and
 [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). The earlier MIT requests must not be
 cited as Apache-2.0 grants.

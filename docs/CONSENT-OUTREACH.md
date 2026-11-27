@@ -1,20 +1,27 @@
 # Contributor consent outreach
 
-Status: **frontend PR #12 is now granted under both MIT and Apache-2.0.**
+Status: **frontend PR #12 is granted under both MIT and Apache-2.0.**
 @Oluwa-Laughter first replied "Yes, permission granted" to the MIT request at
 09:34 UTC, then replied "Hi @hameedx01 permission granted good move" at 22:57
 UTC, after the Apache-2.0 follow-up was posted at 22:41 UTC — that second reply
-is recorded as the Apache-2.0 grant. **Contracts PR #7 remains AWAITING** for
-both licenses. The historical MIT drafts below are kept for the record. This
-file does not create or imply permission beyond what contributors actually
-wrote, and it does not replace the [licensing inventory](LICENSING-REVIEW.md).
+is recorded as the Apache-2.0 grant.
+
+**Contracts PR #7:** @Ay-obami replied at 23:05 UTC: "I do own the original work
+I xontibuted" ([reply](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987)).
+This confirms ownership but does **not** explicitly grant permission to
+distribute under Apache-2.0. A2 remains AWAITING for the grant until the
+contributor confirms it in writing.
+
+The historical MIT drafts below are kept for the record. This file does not
+create or imply permission beyond what contributors actually wrote, and it does
+not replace the [licensing inventory](LICENSING-REVIEW.md).
 
 Requests sent on 2026-11-27 from the maintainer account `hameedx01`:
 
 | Item | Channel | Comment link | Response |
 | --- | --- | --- | --- |
 | L1 | Public comment on frontend PR #12 | [comment 7209604233](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7209604233) | GRANTED for MIT, 2026-11-27 09:34 UTC — [reply 7214840379](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7214840379); Apache-2.0 granted later at 22:57 UTC — [reply 7229757636](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229757636). |
-| L2 | Public comment on contracts PR #7 | [comment 7209605792](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7209605792) | AWAITING |
+| L2 | Public comment on contracts PR #7 | [comment 7209605792](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7209605792) | Ownership confirmed 2026-11-27 23:05 UTC — [reply 7229856987](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987); permission not yet explicit |
 
 Do not convert a row to GRANTED without the contributor's actual answer. A
 lack of response is not consent.
@@ -32,7 +39,7 @@ license. Resolve or explicitly disclose these exceptions before appealing.
 | Item | Repository / PR | Contributor | Contribution | Request sent | Response recorded |
 | --- | --- | --- | --- | --- | --- |
 | L1 | `accordbridge-frontend` [PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12) | @Oluwa-Laughter | Cold-start intent recovery implementation, tests, docs, package configuration | YES, 2026-11-27 | YES — MIT [reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7214840379) and Apache-2.0 [reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229757636) |
-| L2 | `accordbridge-contracts` [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7) | @Ay-obami | `.github/workflows/contracts.yml`, `docs/CI-WASM-ARTIFACTS.md` | YES, 2026-11-27 | NO |
+| L2 | `accordbridge-contracts` [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7) | @Ay-obami | `.github/workflows/contracts.yml`, `docs/CI-WASM-ARTIFACTS.md` | YES, 2026-11-27 | PARTIAL — ownership confirmed [reply](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987); permission pending |
 
 ## Apache-2.0 confirmations required (not sent)
 
@@ -44,11 +51,13 @@ under Apache-2.0.
 | Item | Repository / PR | Contributor | Apache-2.0 request | Response |
 | --- | --- | --- | --- | --- |
 | A1 | `accordbridge-frontend` [PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12) | @Oluwa-Laughter | YES, 2026-11-27 — [comment 7229541759](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229541759) | **GRANTED**, 2026-11-27 22:57 UTC — [reply 7229757636](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229757636): "Hi @hameedx01 permission granted good move" |
-| A2 | `accordbridge-contracts` [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7) | @Ay-obami | YES, 2026-11-27 — [comment 7229543662](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229543662) | NO — AWAITING |
+| A2 | `accordbridge-contracts` [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7) | @Ay-obami | YES, 2026-11-27 — [comment 7229543662](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229543662) | PARTIAL — ownership confirmed [reply 7229856987](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987); Apache-2.0 permission still AWAITING |
 
 A1 is GRANTED because the contributor replied in direct response to the
-Apache-2.0 request. A2 remains AWAITING and must not be marked granted without
-an actual reply. Keep the exact wording, timestamp and link for each grant.
+Apache-2.0 request. A2 is PARTIAL: "I do own the original work I xontibuted"
+confirms ownership but not permission to distribute. Ask for one explicit line
+before marking it GRANTED. Keep the exact wording, timestamp and link for each
+grant.
 
 > AccordBridge has changed its selected license from MIT to the Apache License,
 > Version 2.0. Please confirm whether you own or are authorized to license the
