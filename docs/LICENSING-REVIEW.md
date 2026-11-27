@@ -88,14 +88,15 @@ before the Apache-2.0 follow-up was posted at 22:41 UTC. They then replied
 "Hi @hameedx01 permission granted good move" at 22:57 UTC
 ([reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229757636))
 in direct response to the Apache-2.0 request. Frontend PR #12 is therefore
-**granted under MIT and Apache-2.0**, with attribution preserved. @Ay-obami
-replied at 2026-11-27 23:05 UTC: "I do own the original work I xontibuted"
-([reply](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987)).
-That confirms ownership but not permission to distribute under Apache-2.0, so
-contracts PR #7 remains **partially resolved**: ask for one explicit grant line.
-If no grant arrives, that scope must be replaced by an independently authored,
-reviewed change with attribution preserved, or the exception must be disclosed
-explicitly.
+**granted under MIT and Apache-2.0**, with attribution preserved. @Ay-obami first confirmed ownership at 23:05 UTC, then edited the same reply at
+2026-11-27 23:10 UTC to end with "Permission granted"
+([reply](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987))
+in direct response to the Apache-2.0 request. **Contracts PR #7 is therefore
+granted under MIT and Apache-2.0 as well.** Both historical outside
+contributions now have explicit grants, with attribution and Git history
+preserved. This resolves the licensing exception that had been carried in the
+readiness report; it does not itself prove funding eligibility, an audit, or
+hosted wallet acceptance.
 
 Do not substitute a maintainer checkmark, a merge, an author name or silence for
 a contributor's grant. Record actual responses with their date, channel and

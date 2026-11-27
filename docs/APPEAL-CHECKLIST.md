@@ -57,8 +57,10 @@ substantive improvement.
    read-only readiness observation, with their timestamps and limits.
 5. Hosted two-profile Freighter results **only if actually executed**; otherwise
    state clearly that H01–H26 remain NOT RUN and link `HOSTED-ACCEPTANCE.md`.
-6. Licensing status from [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). If a grant
-   remains unresolved, say so; do not imply retroactive consent.
+6. Licensing status from [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). Both
+   outside contributions now have explicit Apache-2.0 grants with links and
+   timestamps; cite those records. If a future grant remains unresolved, say so
+   rather than implying retroactive consent.
 
 ## Claim boundaries
 
