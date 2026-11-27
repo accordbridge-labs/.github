@@ -39,9 +39,9 @@ At 27 November 2026 the Stellar Wave page showed **no active or upcoming Wave**
 
 | Repository | Repo status in app | Appeal window | Substantive change to cite | CI evidence link | Result |
 | --- | --- | --- | --- | --- | --- |
-| `accordbridge-frontend` | NOT RECORDED | NOT RECORDED | Dependency patch + advisory check; link merged PR and run | NOT RECORDED | NOT SUBMITTED |
-| `accordbridge-backend` | NOT RECORDED | NOT RECORDED | Dependency patch + advisory check; link merged PR and run | NOT RECORDED | NOT SUBMITTED |
-| `accordbridge-contracts` | NOT RECORDED | NOT RECORDED | Dependency patch, reviewed Rust exception + advisory check; link merged PR and run | NOT RECORDED | NOT SUBMITTED |
+| `accordbridge-frontend` | NOT RECORDED | NOT RECORDED | [PR #27](https://github.com/accordbridge-labs/accordbridge-frontend/pull/27): critical Next.js patch + advisory CI | [app](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/45937179372), [advisory](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/45937179402) | NOT SUBMITTED |
+| `accordbridge-backend` | NOT RECORDED | NOT RECORDED | [PR #24](https://github.com/accordbridge-labs/accordbridge-backend/pull/24): NestJS/zod patch + advisory CI | [app](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/45937180309), [advisory](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/45937180246) | NOT SUBMITTED |
+| `accordbridge-contracts` | NOT RECORDED | NOT RECORDED | [PR #18](https://github.com/accordbridge-labs/accordbridge-contracts/pull/18): JS patch, reviewed Rust exception + advisory CI | [app](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/45937179606), [advisory](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/45937179592) | NOT SUBMITTED |
 
 Do not convert a row to "submitted" until the app records it. Do not cite an
 unmerged branch, a local test run, or a documentation-only change as the sole

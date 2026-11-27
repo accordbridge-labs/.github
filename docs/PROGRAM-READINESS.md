@@ -26,32 +26,49 @@ decision.
 
 The 18 October counts (18 backend, 9 frontend unit, 16 browser, 10 contract)
 were correct at that commit but are **no longer current**: later merged PRs
-expanded those suites. The last CI runs visible on `main` at this review were
+expanded those suites. Immediately before the 27 November changes, the last CI
+runs on `main` were
 [frontend, 26 October](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/40297788284),
 [backend, 30 October](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/41108083705),
 and [contracts, 24 October](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/40082567711),
-all successful. The 27 November results above were produced locally, not in
-GitHub Actions, and must not be described as CI evidence until a change is
-merged and its workflow run is linked.
+all successful. The 27 November results above were first produced locally; the
+post-merge workflow runs linked below now provide the corresponding CI
+evidence for the merged commits. Keep the two categories distinct when citing
+them.
 
 **Dependency advisories found in this pass:** the pinned frontend `next@16.4.0`
 had a critical advisory, the backend had high advisories in
 `@nestjs/platform-express` and `zod`, and the contracts JavaScript tree had a
-high `follow-redirects` advisory. Compatible patched versions were prepared on
-the `fix/dependency-advisories` branches in all three repositories, together
-with a separate least-privilege advisory workflow and triage documentation in
-`docs/DEPENDENCY-ADVISORIES.md`. After those updates, `npm audit` reports zero
-advisories in all three repositories. `cargo audit` reports one transitive
-advisory (`RUSTSEC-2026-0387`, crypto-bigint via pinned soroban-sdk) recorded as
-a reviewed exception expiring 27 December 2026 in
-`accordbridge-contracts/.cargo/audit.toml`. These changes were **prepared but not
-merged** at the time of this addendum; no CI links or hosted evidence exist for
-them yet.
+high `follow-redirects` advisory. Compatible patched versions were merged with
+a separate least-privilege advisory workflow and triage documentation in
+`docs/DEPENDENCY-ADVISORIES.md`:
+[frontend PR #27](https://github.com/accordbridge-labs/accordbridge-frontend/pull/27),
+[backend PR #24](https://github.com/accordbridge-labs/accordbridge-backend/pull/24),
+and [contracts PR #18](https://github.com/accordbridge-labs/accordbridge-contracts/pull/18).
+After those updates, `npm audit` reports zero advisories in all three
+repositories. `cargo audit` reports one transitive advisory (`RUSTSEC-2026-0387`,
+crypto-bigint via pinned soroban-sdk) recorded as a reviewed exception expiring
+27 December 2026 in `accordbridge-contracts/.cargo/audit.toml`.
 
-**Activity gap:** the newest merged commits at this review were 30 October
-(backend), 26 October (frontend) and 24 October (contracts). A Drips appeal
-should rely on substantive change since the rejection, so any prepared work
-must be reviewed, merged and linked with its actual CI run before submission.
+**Post-merge CI evidence (27 November 2026, all successful):**
+
+| Repository | Application CI | Advisory CI | Merged commit |
+| --- | --- | --- | --- |
+| Frontend | [run 45937179372](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/45937179372) | [run 45937179402](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/45937179402) | `3b4d13acc3f7` |
+| Backend | [run 45937180309](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/45937180309) | [run 45937180246](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/45937180246) | `6877e09f8bd0` |
+| Contracts | [run 45937179606](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/45937179606) | [run 45937179592](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/45937179592) | `ca37993c2afe` |
+
+The preparation documents and the evidence addendum were merged in
+[organization PR #8](https://github.com/accordbridge-labs/.github/pull/8),
+commit `e00bcdaf9905`. These runs establish current repository checks only.
+They do not prove hosted wallet acceptance, user adoption, an audit, or
+continued availability of the public deployment.
+
+**Activity gap partly closed:** the newest merged commits at the earlier review
+were 30 October (backend), 26 October (frontend) and 24 October (contracts).
+The 27 November merges above add substantive, tested changes on all three
+application repositories. A Drips appeal should still cite the rejection date
+from the app and confirm that these changes fall inside the appeal window.
 
 See [APPEAL-CHECKLIST.md](APPEAL-CHECKLIST.md),
 [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md) and [WAVE-BACKLOG.md](WAVE-BACKLOG.md)
