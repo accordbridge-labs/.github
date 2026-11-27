@@ -43,3 +43,7 @@ Check the live issue status and current implementation before starting: this lis
 is a routing guide, not an assignment or a claim that no progress has been made.
 Hosted two-wallet acceptance, historical contributor permissions and production
 controls remain separate requirements in the [readiness report](PROGRAM-READINESS.md).
+For issue routing and proposed complexity see the [Wave backlog](WAVE-BACKLOG.md);
+for the maintainer's in-app appeal steps see the [appeal checklist](APPEAL-CHECKLIST.md)
+and the [consent outreach drafts](CONSENT-OUTREACH.md). These are planning
+documents, not assignments, license grants or submitted appeals.
