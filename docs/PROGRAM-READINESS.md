@@ -68,10 +68,12 @@ continued availability of the public deployment.
 Apache License 2.0 across all four repositories, added root `NOTICE` files,
 updated package/Cargo metadata and documentation, and sent new Apache-2.0
 consent questions to the two outside contributors (recorded in
-[CONSENT-OUTREACH.md](CONSENT-OUTREACH.md)). At the time of this addendum no grant had been recorded. @Oluwa-Laughter later
-replied "Yes, permission granted" to the **MIT** request at 09:34 UTC, before
-the Apache-2.0 follow-up was posted at 22:41 UTC; that reply grants MIT only.
-Both Apache-2.0 requests remain AWAITING; see
+[CONSENT-OUTREACH.md](CONSENT-OUTREACH.md)). @Oluwa-Laughter replied "Yes, permission granted" to the **MIT** request at
+09:34 UTC, before the Apache-2.0 follow-up at 22:41 UTC, and then replied
+"Hi @hameedx01 permission granted good move" at 22:57 UTC in direct response to
+the Apache-2.0 request ([reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229757636)).
+Frontend PR #12 is therefore granted under both licenses; contracts PR #7
+remains AWAITING. See
 [LICENSING-REVIEW.md](LICENSING-REVIEW.md) and
 [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). The earlier MIT requests must not be
 cited as Apache-2.0 grants.

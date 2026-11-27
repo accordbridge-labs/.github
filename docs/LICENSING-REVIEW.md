@@ -84,12 +84,15 @@ and [contracts PR #7](https://github.com/accordbridge-labs/accordbridge-contract
 @Oluwa-Laughter replied "Yes, permission granted" to the earlier **MIT** request
 on 2026-11-27 09:34 UTC
 ([reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7214840379)),
-before the Apache-2.0 follow-up was posted at 22:41 UTC. That reply grants MIT
-only; it does not cover Apache-2.0. No Apache-2.0 grant has been recorded from
-either contributor, and @Ay-obami has not replied to either request. If no
-Apache-2.0 answer arrives, the affected scope must be replaced by an
-independently authored, reviewed change with attribution preserved, or the
-exception must be disclosed explicitly.
+before the Apache-2.0 follow-up was posted at 22:41 UTC. They then replied
+"Hi @hameedx01 permission granted good move" at 22:57 UTC
+([reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229757636))
+in direct response to the Apache-2.0 request. Frontend PR #12 is therefore
+**granted under MIT and Apache-2.0**, with attribution preserved. @Ay-obami has
+not replied to either request, so contracts PR #7 remains unresolved: if no
+answer arrives, that scope must be replaced by an independently authored,
+reviewed change with attribution preserved, or the exception must be disclosed
+explicitly.
 
 Do not substitute a maintainer checkmark, a merge, an author name or silence for
 a contributor's grant. Record actual responses with their date, channel and
