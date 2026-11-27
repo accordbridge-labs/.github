@@ -100,6 +100,25 @@ License adoption was merged as
 The frontend connected-workspace job failed once on a 5-second mobile selector
 timeout and passed on re-run; no code change was made between those runs.
 
+**README scope alignment:** on 28 November 2026 the three application READMEs
+were restructured using the documentation pattern of the Soroban-escrow
+organization as a reference — scope/boundary tables, design rules pinned by
+tests, honest verification status and pre-mainnet gates. No Soroban-escrow code,
+branding, claims or product scope were copied. Merged as
+[frontend #29](https://github.com/accordbridge-labs/accordbridge-frontend/pull/29)
+(`3d01249925f0`),
+[backend #26](https://github.com/accordbridge-labs/accordbridge-backend/pull/26)
+(`9ffa1cc3754d`) and
+[contracts #21](https://github.com/accordbridge-labs/accordbridge-contracts/pull/21)
+(`d92b4970974b`). Post-merge checks succeeded:
+[frontend app](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/46084155477) and
+[advisory](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/46084155453),
+[backend app](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/46084154065) and
+[advisory](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/46084154097),
+[contracts app](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/46084153909) and
+[advisory](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/46084153932).
+These are documentation-only changes; they do not add wallet evidence.
+
 **Activity gap partly closed:** the newest merged commits at the earlier review
 were 30 October (backend), 26 October (frontend) and 24 October (contracts).
 The 27 November merges above add substantive, tested changes on all three
