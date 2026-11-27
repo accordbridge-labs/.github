@@ -1,7 +1,10 @@
 # Contributor consent outreach
 
 Status: **both the MIT requests and the follow-up Apache-2.0 requests were sent
-as public PR comments on 27 November 2026; no grant has been recorded.** The
+as public PR comments on 27 November 2026.** @Oluwa-Laughter replied "Yes,
+permission granted" to the **MIT** request at 09:34 UTC; that reply predates the
+Apache-2.0 follow-up at 22:41 UTC and therefore does **not** cover Apache-2.0.
+A1/A2 remain AWAITING for Apache-2.0; L2 remains AWAITING even for MIT. The
 historical MIT drafts below are kept for the record. A request is not consent,
 and this file does not create or imply permission, nor does it replace the
 [licensing inventory](LICENSING-REVIEW.md).
@@ -10,7 +13,7 @@ Requests sent on 2026-11-27 from the maintainer account `hameedx01`:
 
 | Item | Channel | Comment link | Response |
 | --- | --- | --- | --- |
-| L1 | Public comment on frontend PR #12 | [comment 7209604233](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7209604233) | AWAITING |
+| L1 | Public comment on frontend PR #12 | [comment 7209604233](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7209604233) | GRANTED for MIT, 2026-11-27 09:34 UTC — [reply "Yes, permission granted"](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7214840379). Does not cover Apache-2.0. |
 | L2 | Public comment on contracts PR #7 | [comment 7209605792](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7209605792) | AWAITING |
 
 Do not convert a row to GRANTED without the contributor's actual answer. A
@@ -28,7 +31,7 @@ license. Resolve or explicitly disclose these exceptions before appealing.
 
 | Item | Repository / PR | Contributor | Contribution | Request sent | Response recorded |
 | --- | --- | --- | --- | --- | --- |
-| L1 | `accordbridge-frontend` [PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12) | @Oluwa-Laughter | Cold-start intent recovery implementation, tests, docs, package configuration | YES, 2026-11-27 | NO |
+| L1 | `accordbridge-frontend` [PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12) | @Oluwa-Laughter | Cold-start intent recovery implementation, tests, docs, package configuration | YES, 2026-11-27 | YES — MIT only, [reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7214840379) |
 | L2 | `accordbridge-contracts` [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7) | @Ay-obami | `.github/workflows/contracts.yml`, `docs/CI-WASM-ARTIFACTS.md` | YES, 2026-11-27 | NO |
 
 ## Apache-2.0 confirmations required (not sent)
@@ -43,8 +46,9 @@ under Apache-2.0.
 | A1 | `accordbridge-frontend` [PR #12](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12) | @Oluwa-Laughter | YES, 2026-11-27 — [comment 7229541759](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229541759) | NO — AWAITING |
 | A2 | `accordbridge-contracts` [PR #7](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7) | @Ay-obami | YES, 2026-11-27 — [comment 7229543662](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229543662) | NO — AWAITING |
 
-Do not convert A1 or A2 to GRANTED without an actual reply. The MIT and
-Apache-2.0 requests are separate; neither has been answered yet.
+Do not convert A1 or A2 to GRANTED without an actual reply to the Apache-2.0
+request. The MIT and Apache-2.0 requests are separate: L1 has a MIT reply, but
+no Apache-2.0 reply has been recorded for either contributor.
 
 > AccordBridge has changed its selected license from MIT to the Apache License,
 > Version 2.0. Please confirm whether you own or are authorized to license the

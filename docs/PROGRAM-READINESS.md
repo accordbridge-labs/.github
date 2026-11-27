@@ -68,9 +68,10 @@ continued availability of the public deployment.
 Apache License 2.0 across all four repositories, added root `NOTICE` files,
 updated package/Cargo metadata and documentation, and sent new Apache-2.0
 consent questions to the two outside contributors (recorded in
-[CONSENT-OUTREACH.md](CONSENT-OUTREACH.md)). At the time of this addendum both
-requests were AWAITING and no grant had been recorded. Fresh Apache-2.0
-follow-up requests were also sent and remain AWAITING; see
+[CONSENT-OUTREACH.md](CONSENT-OUTREACH.md)). At the time of this addendum no grant had been recorded. @Oluwa-Laughter later
+replied "Yes, permission granted" to the **MIT** request at 09:34 UTC, before
+the Apache-2.0 follow-up was posted at 22:41 UTC; that reply grants MIT only.
+Both Apache-2.0 requests remain AWAITING; see
 [LICENSING-REVIEW.md](LICENSING-REVIEW.md) and
 [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). The earlier MIT requests must not be
 cited as Apache-2.0 grants.
