@@ -4,6 +4,60 @@ Reviewed 18 October 2026. This is an engineering assessment, not a finding from
 Drips or a guarantee of program acceptance. The rejection notice names broad
 criteria and does not establish a repository-specific cause.
 
+## Update — 27 November 2026
+
+This addendum records a later verification pass. It does not change the
+18 October findings above; it supersedes only the stale counts and the status
+of the remaining prerequisites. It is an engineering assessment, not a Drips
+decision.
+
+**Local verification against current `main` (27 November 2026):**
+
+| Suite | Result | Command |
+| --- | --- | --- |
+| Frontend unit | 16 passed | `npm test` |
+| Frontend browser | 48 passed (desktop + mobile) | `npm run test:e2e` |
+| Frontend build / typecheck | passed | `npm run build`, `npm run typecheck` |
+| Backend, with isolated PostgreSQL | 28 passed | `npm test` |
+| Backend API contract | no drift | `npm run docs:api`, `git diff --exit-code docs/openapi.json` |
+| Contracts JS tooling | 14 passed | `npm test` |
+| Contracts Rust (8 escrow + 5 token) | 13 passed | `cargo test --locked --workspace` |
+| Contracts formatting | passed | `cargo fmt --all -- --check` |
+
+The 18 October counts (18 backend, 9 frontend unit, 16 browser, 10 contract)
+were correct at that commit but are **no longer current**: later merged PRs
+expanded those suites. The last CI runs visible on `main` at this review were
+[frontend, 26 October](https://github.com/accordbridge-labs/accordbridge-frontend/actions/runs/40297788284),
+[backend, 30 October](https://github.com/accordbridge-labs/accordbridge-backend/actions/runs/41108083705),
+and [contracts, 24 October](https://github.com/accordbridge-labs/accordbridge-contracts/actions/runs/40082567711),
+all successful. The 27 November results above were produced locally, not in
+GitHub Actions, and must not be described as CI evidence until a change is
+merged and its workflow run is linked.
+
+**Dependency advisories found in this pass:** the pinned frontend `next@16.4.0`
+had a critical advisory, the backend had high advisories in
+`@nestjs/platform-express` and `zod`, and the contracts JavaScript tree had a
+high `follow-redirects` advisory. Compatible patched versions were prepared on
+the `fix/dependency-advisories` branches in all three repositories, together
+with a separate least-privilege advisory workflow and triage documentation in
+`docs/DEPENDENCY-ADVISORIES.md`. After those updates, `npm audit` reports zero
+advisories in all three repositories. `cargo audit` reports one transitive
+advisory (`RUSTSEC-2026-0387`, crypto-bigint via pinned soroban-sdk) recorded as
+a reviewed exception expiring 27 December 2026 in
+`accordbridge-contracts/.cargo/audit.toml`. These changes were **prepared but not
+merged** at the time of this addendum; no CI links or hosted evidence exist for
+them yet.
+
+**Activity gap:** the newest merged commits at this review were 30 October
+(backend), 26 October (frontend) and 24 October (contracts). A Drips appeal
+should rely on substantive change since the rejection, so any prepared work
+must be reviewed, merged and linked with its actual CI run before submission.
+
+See [APPEAL-CHECKLIST.md](APPEAL-CHECKLIST.md),
+[CONSENT-OUTREACH.md](CONSENT-OUTREACH.md) and [WAVE-BACKLOG.md](WAVE-BACKLOG.md)
+for the remaining process work. None of these documents records a submitted
+appeal, a hosted wallet run, or a contributor's license grant.
+
 ## Findings from the source
 
 The three repositories already implement one connected Stellar Testnet product:
