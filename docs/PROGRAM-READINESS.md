@@ -72,11 +72,12 @@ consent questions to the two outside contributors (recorded in
 09:34 UTC, before the Apache-2.0 follow-up at 22:41 UTC, and then replied
 "Hi @hameedx01 permission granted good move" at 22:57 UTC in direct response to
 the Apache-2.0 request ([reply](https://github.com/accordbridge-labs/accordbridge-frontend/pull/12#issuecomment-7229757636)).
-Frontend PR #12 is therefore granted under both licenses. @Ay-obami confirmed
-ownership of contracts PR #7 at 23:05 UTC
-([reply](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987))
-but has not yet granted Apache-2.0 distribution permission, so that exception
-remains partially resolved. See
+Frontend PR #12 is therefore granted under both licenses. @Ay-obami first
+confirmed ownership of contracts PR #7 at 23:05 UTC and edited that reply at
+23:10 UTC to "Permission granted"
+([reply](https://github.com/accordbridge-labs/accordbridge-contracts/pull/7#issuecomment-7229856987)),
+so that contribution is also granted under Apache-2.0. **Both historical
+licensing exceptions are now resolved** with explicit contributor grants. See
 [LICENSING-REVIEW.md](LICENSING-REVIEW.md) and
 [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). The earlier MIT requests must not be
 cited as Apache-2.0 grants.
@@ -178,9 +179,11 @@ Its acceptance status and the reasons for that decision were not independently v
    frontend PR #12 and contracts PR #7 as outside contributions without an
    explicit grant; no messages had been sent at that time. **Update:** on
    27 November 2026 the maintainer switched all four repositories to Apache
-   License 2.0 and sent consent requests to both contributors, recorded in
-   [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). No replies have been recorded.
-   The earlier MIT requests do not grant rights under Apache-2.0.
+   License 2.0 and sent both MIT and Apache-2.0 consent requests to the two
+   contributors, recorded in [CONSENT-OUTREACH.md](CONSENT-OUTREACH.md). Both
+   contributors explicitly granted Apache-2.0 permission on 27 November 2026,
+   so these two exceptions are resolved. The earlier MIT requests alone did not
+   grant Apache-2.0 rights; the later explicit grants do.
 2. Keep evidence tied to actual commits and distinguish local, mocked, hosted and
    live-chain checks. A limited hosted preflight passed on 18 October 2026, checking
    public rendering, authentication boundaries, secure cookies, separate sessions,
