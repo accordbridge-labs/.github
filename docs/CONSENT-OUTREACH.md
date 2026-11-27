@@ -1,4 +1,4 @@
-# Contributor consent outreach — drafts, not sent
+# Contributor consent outreach
 
 Status: **both requests have been sent as public PR comments; no grant has been
 recorded**. The drafts below are kept for the record. A request is not consent,
@@ -84,6 +84,7 @@ preserve attribution and Git history.
 
 ## Reviewer note
 
-Do not post these requests automatically. A public PR comment creates an
-external message under the maintainer's identity; confirm delivery and wording
-before sending.
+The two requests above were posted manually as public PR comments under the
+maintainer's identity on 27 November 2026. A public PR comment is an external
+message: confirm delivery and wording before posting any follow-up. Keep
+recording only what the contributor actually says; silence is not consent.
