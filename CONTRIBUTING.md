@@ -4,7 +4,7 @@ AccordBridge is a development/testnet prototype. Begin with an existing unassign
 
 ## Changes and review
 
-1. Link the relevant issue and confirm its scope and current assignment.
+1. Link the relevant issue, confirm its scope and current assignment, and use the shared [issue labels](docs/LABELS.md) when triaging. Do not apply `Stellar Wave` unless the repository is approved and you are intentionally adding the issue to the program.
 2. Describe the proposed behaviour and remaining decisions.
 3. Make changes on a branch and open a pull request.
 4. Obtain review before merging changes to agreed scope or financial rules.
